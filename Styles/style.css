@@ -1,0 +1,30 @@
+* {
+    font-size: 1.5rem;
+}
+ /* Conatiner */
+.flexbox{
+    display: flex;    
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Common Css Elements */
+
+.item{
+    border:  1px solid #ccc;
+}
+
+
+.item1 {
+    background-color: green;
+}
+
+.item3{
+    align-self: flex-start; /* Indivigual Elements to target */
+    background-color: aquamarine;
+}
+
+.item5 {
+    align-self: flex-end;
+}
